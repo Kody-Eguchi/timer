@@ -1,7 +1,6 @@
 const numArr = process.argv.slice(2);
 
 const timer1 = function(numArr) {
-  // console.log(numArr);
   
   if (numArr.length === 0) {
     return;
@@ -9,7 +8,7 @@ const timer1 = function(numArr) {
   
   for (let num of numArr) {
     num = Number(num);
-    // console.log(num);/
+    
     if (num < 0) {
       return;
     }
